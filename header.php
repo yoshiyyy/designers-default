@@ -11,7 +11,7 @@
 		<meta http-equiv="Cache-Control" content="no-cache" /> 
 		<meta http-equiv="Content-Language" content="en-us" />
 	
-		<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
+		<title><?php wp_title(); ?> ::  <?php bloginfo('name'); ?></title>
 		
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/print.css" type="text/css" media="print" />

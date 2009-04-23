@@ -370,30 +370,25 @@
 
 /* http://sonspring.com/journal/clearing-floats */
 
-html body div.clear,
-html body span.clear {
-	background: none;
-	border: 0;
+.clear {
 	clear: both;
 	display: block;
-	float: none;
-	font-size: 0;
-	list-style: none;
-	margin: 0;
-	padding: 0;
 	overflow: hidden;
 	visibility: hidden;
 	width: 0;
 	height: 0;
 }
 
-/* http://www.positioniseverything.net/easyclearing.html */
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
 
 .clearfix:after {
 	clear: both;
-	content: '.';
+	content: ' ';
 	display: block;
+	font-size: 0;
+	line-height: 0;
 	visibility: hidden;
+	width: 0;
 	height: 0;
 }
 
